@@ -604,7 +604,10 @@ void GetFeatures(void)
 #ifdef USE_MLX90640
   feature6 |= 0x01000000;  // xdrv_43_mlx90640.ino
 #endif
-//  feature6 |= 0x02000000;
+#ifdef USE_SHELLY_DIMMER
+  feature6 |= 0x02000000;  // xdrv_40_shelly_dimmer.ino
+#endif
+
 //  feature6 |= 0x04000000;
 //  feature6 |= 0x08000000;
 

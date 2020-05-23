@@ -230,7 +230,7 @@ a_features = [[
     "USE_MLX90640","","","",
     "","USE_TTGO_WATCH","USE_ETHERNET","USE_WEBCAM"
     ],[
-    "","","","",
+    "USE_SHELLY_DIMMER","","","",
     "","","","",
     "","","","",
     "","","","",
