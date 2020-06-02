@@ -612,8 +612,10 @@ struct {
   uint8_t       shutter_mode;              // F43
   uint16_t      energy_power_delta[3];     // F44
   uint16_t      shutter_pwmrange[2][MAX_SHUTTERS];  // F4A
-
-  uint8_t       free_f5a[90];             // F5A - Decrement if adding new Setting variables just above and below
+  uint8_t       shd_leading_edge;          // F5A
+  uint16_t      shd_warmup_brightness;     // F5B
+  uint8_t       shd_warmup_time;           // F5D
+  uint8_t       free_f5e[87];              // F5E - Decrement if adding new Setting variables just above and below
 
   // Only 32 bit boundary variables below
   SysBitfield5  flag5;                     // FB4
