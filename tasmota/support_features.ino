@@ -605,7 +605,7 @@ void GetFeatures(void)
   feature6 |= 0x01000000;  // xdrv_43_mlx90640.ino
 #endif
 #ifdef USE_SHELLY_DIMMER
-  feature6 |= 0x02000000;  // xdrv_40_shelly_dimmer.ino
+  feature6 |= 0x02000000;  // xdrv_44_shelly_dimmer.ino
 #endif
 
 //  feature6 |= 0x04000000;
